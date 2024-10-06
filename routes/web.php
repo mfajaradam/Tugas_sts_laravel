@@ -7,4 +7,4 @@ use Illuminate\Support\Facades\Route;
 //     return view('index');
 // });
 
-Route::get('/', [HomeController::class, 'index'])->name('HomePage');
+Route::get('/', [HomeController::class, 'index'])->name('HomePage'); // fungsi name adalah memberi alias
